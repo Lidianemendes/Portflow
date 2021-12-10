@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb (200, 200, 200);
+}
+.hamburguer{
+    display: none;
+}
+.logo{
+    color: black;
+    width: 50%;
+}
+h2{
+    font-weight: 800;
+    font-size: 22px;
+    margin-left: 5%;
+}
+nav{
+    font-weight: normal;
+    width: 50%;
+    height: 5vh;
+}
+a{
+    font-weight: normal;
+    color:gray; 
+    text-decoration: none;
+}
+ul{
+    width: 100%;
+    height: 30px;
+    opacity: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    text-decoration: none;
+}
+li:hover{
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+header h1{
+    color: #f7f7f7;
+    font-size: 60px;
+    margin-bottom: 35px;
+    margin-left: 5%;
+}
+header p{
+    color: #f7f7f7;
+    font-size: 25px; 
+    margin-left: 5%;
+}
+.orange{
+    width: 100%;
+    height: 75vh;
+    background-image: url('img/laranja azul recorte.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.orange-text{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 75%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 160vh;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagem-corpo{
+    width: 320px;
+    height: 320px;
+    border: solid #f7f7f7;
+}
+footer{
+    width: 100%;
+    height: 15vh;
+    justify-content:space-around;
+    background-color: #eeeded
+}
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.redes-img{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.copy{
+    width:60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+.fonte{
+    color: black;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 11px;
+    font-weight: normal;
+    height: 7vh;
+}
+.topo{
+    display: none;
+
+}
+ @media(max-width: 375px){
+    body{
+        height: 800vh;
+    }
+    header{
+        height: 12%;
+    }
+    nav{
+        display: none;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .orange{
+        background-size: 220vh;
+        height: 80vh;
+        right: 200vh;
+    }
+    .hamburguer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        width: 30%;
+        height: 100%;
+    }
+    .fotos{
+        height: 90%;
+        margin-left: 7%;
+    }
+    main{
+        height: 85%;
+        width: 100%;
+    }
+    footer{
+        height: 5%;
+    }
+    .redes-sociais{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .redes-img{
+        background-color: rgb(101, 161, 201);
+        width: 80%;
+        height: 15%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .redes-img img{
+        display: flex;
+        justify-content: space-around;
+        height:40%;
+        margin-top: 3%;
+    }
+    .topo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        left: 80%;
+        bottom: 80%;
+        width: 30%;
+        height: 100%;
+    }
+    button{
+        color: rgb(180, 161, 161);
+    }
+    .copy{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 70%;
+        height: 50%;
+    }
+    .fonte{
+        font-size: 8px;
+        width: 60%;
+        height: 70%;
+        margin-top: 10%;
+    }
+    
+ }
