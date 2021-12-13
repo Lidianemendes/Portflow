@@ -152,9 +152,11 @@ footer{
         width: 100%;
     }
     .orange{
-        background-size: 220vh;
+        background-image: url(./img/laranja\ azul\ recorte\ 375.png);
+        display: flex;
+        background-size: auto;
         height: 80vh;
-        right: 200vh;
+        width: 100%;
     }
     .hamburguer{
         display: flex;
@@ -170,11 +172,11 @@ footer{
         margin-left: 7%;
     }
     main{
-        height: 85%;
+        height: 86%;
         width: 100%;
     }
     footer{
-        height: 5%;
+        height: 6%;
     }
     .redes-sociais{
         width: 100%;
@@ -183,8 +185,8 @@ footer{
     }
     .redes-img{
         background-color: rgb(101, 161, 201);
-        width: 80%;
-        height: 15%;
+        width: 85%;
+        height: 17%;
         display: flex;
         justify-content: space-around;
     }
@@ -202,8 +204,8 @@ footer{
         position: relative;
         left: 80%;
         bottom: 80%;
-        width: 30%;
-        height: 100%;
+        width: 20%;
+        height: 50%;
     }
     button{
         color: rgb(180, 161, 161);
