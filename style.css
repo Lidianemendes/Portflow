@@ -138,10 +138,12 @@ footer{
 }
  @media(max-width: 375px){
     body{
-        height: 800vh;
+        height: 140vh;
+        background-size: auto;
     }
     header{
-        height: 12%;
+        height: 100%;
+        background-size: auto;
     }
     nav{
         display: none;
@@ -155,8 +157,15 @@ footer{
         background-image: url(./img/laranja\ azul\ recorte\ 375.png);
         display: flex;
         background-size: auto;
-        height: 80vh;
+        height: 100%;
         width: 100%;
+        position: relative;
+    }
+    .orange-text{
+        position: absolute;
+        width: 60%;
+        top: 95%;  
+        height: 1%;
     }
     .hamburguer{
         display: flex;
@@ -172,11 +181,11 @@ footer{
         margin-left: 7%;
     }
     main{
-        height: 86%;
+        height: 760vh;
         width: 100%;
     }
     footer{
-        height: 6%;
+        height: 40%;
     }
     .redes-sociais{
         width: 100%;
@@ -193,7 +202,7 @@ footer{
     .redes-img img{
         display: flex;
         justify-content: space-around;
-        height:40%;
+        height:30%;
         margin-top: 3%;
     }
     .topo{
